@@ -26,10 +26,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 px-4">
+    <section id="contact" className="py-20 px-4 bg-primary/5">
       <div className="max-w-4xl mx-auto animate-fade-up">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Get In Touch</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">Get In Touch</h2>
           <p className="text-xl text-muted-foreground">
             Have a project or idea? Let's talk about it.
           </p>
@@ -45,10 +45,10 @@ const Contact = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
                   <a
-                    href="mailto:kaizenclubafrica@gmail.com"
+                    href="mailto:amin@crevia.app"
                     className="text-lg font-semibold hover:text-primary transition-colors"
                   >
-                    kaizenclubafrica@gmail.com
+                    amin@crevia.app
                   </a>
                 </div>
               </div>

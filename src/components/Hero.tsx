@@ -21,7 +21,7 @@ const Hero = () => {
             Entrepreneur • Community Builder • Marketer
           </p>
           <p className="text-lg text-foreground/80 leading-relaxed max-w-lg">
-            I'm the founder of Kaizen Africa, creator of Crevia, and founder of Ahzar Circle. 
+            I'm the creator of Crevia and founder of Ahzar Circle. 
             I build communities and empower creators across Africa through technology, marketing, 
             and meaningful connections.
           </p>

@@ -1,9 +1,9 @@
 const AhzarCircle = () => {
   return (
-    <section className="py-20 px-4 bg-accent/5">
+    <section id="ahzar" className="py-20 px-4 bg-accent/10">
       <div className="max-w-4xl mx-auto animate-fade-up">
-        <div className="bg-card rounded-3xl p-8 md:p-12 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-shadow duration-300">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">About Ahzar Circle</h2>
+        <div className="bg-card rounded-3xl p-8 md:p-12 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-shadow duration-300 border-l-4 border-accent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">About Ahzar Circle</h2>
           <div className="space-y-4 text-lg text-foreground/80 leading-relaxed">
             <p>
               <strong className="text-primary font-semibold">Ahzar Circle</strong> is an exclusive 
