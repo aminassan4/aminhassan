@@ -23,18 +23,18 @@ const events = [
     image: eventImage3,
   },
   {
-    title: "Kaizen Club Meetup",
+    title: "Creator Economy Workshop",
     date: "June 2023",
-    description: "Monthly community gathering with 100+ members for networking and learning.",
+    description: "Workshop on monetization strategies for African creators and entrepreneurs.",
     image: eventImage4,
   },
 ];
 
 const Events = () => {
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 bg-primary/5">
       <div className="max-w-6xl mx-auto animate-fade-up">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-primary">
           Events I've Done
         </h2>
         <div className="grid md:grid-cols-2 gap-8">

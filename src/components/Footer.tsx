@@ -18,17 +18,12 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Projects</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-accent-foreground/70 hover:text-accent-foreground transition-colors">
-                  Kaizen Africa
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-accent-foreground/70 hover:text-accent-foreground transition-colors">
+                <a href="#crevia" className="text-accent-foreground/70 hover:text-accent-foreground transition-colors">
                   Crevia
                 </a>
               </li>
               <li>
-                <a href="#" className="text-accent-foreground/70 hover:text-accent-foreground transition-colors">
+                <a href="#ahzar" className="text-accent-foreground/70 hover:text-accent-foreground transition-colors">
                   Ahzar Circle
                 </a>
               </li>

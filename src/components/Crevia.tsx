@@ -3,10 +3,10 @@ import { Sparkles, Link2, Bot } from "lucide-react";
 
 const Crevia = () => {
   return (
-    <section className="py-20 px-4">
+    <section id="crevia" className="py-20 px-4 bg-primary/10">
       <div className="max-w-6xl mx-auto animate-fade-up">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">About Crevia</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">About Crevia</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Empowering creators to build, launch, and monetize their creative career
           </p>
