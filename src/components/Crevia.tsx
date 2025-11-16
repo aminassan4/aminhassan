@@ -3,49 +3,49 @@ import { Sparkles, Link2, Bot } from "lucide-react";
 
 const Crevia = () => {
   return (
-    <section id="crevia" className="py-20 px-4 bg-primary/10">
+    <section id="crevia" className="py-20 px-4 bg-secondary/30">
       <div className="max-w-6xl mx-auto animate-fade-up">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">About Crevia</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary font-heading">About Crevia</h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-body">
             Empowering creators to build, launch, and monetize their creative career
           </p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-1">
-            <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-4">
+          <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-1 border border-border/30 group">
+            <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
               <Link2 className="w-7 h-7 text-primary" />
             </div>
-            <h3 className="text-2xl font-bold mb-3">Crevia Connect</h3>
-            <p className="text-foreground/70 leading-relaxed">
+            <h3 className="text-2xl font-bold mb-3 font-heading">Crevia Connect</h3>
+            <p className="text-foreground/60 leading-relaxed font-body">
               Build your network and collaborate with other creators in your space.
             </p>
           </div>
 
-          <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-1">
-            <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-4">
+          <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-1 border border-border/30 group">
+            <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
               <Sparkles className="w-7 h-7 text-primary" />
             </div>
-            <h3 className="text-2xl font-bold mb-3">Crevia Link</h3>
-            <p className="text-foreground/70 leading-relaxed">
+            <h3 className="text-2xl font-bold mb-3 font-heading">Crevia Link</h3>
+            <p className="text-foreground/60 leading-relaxed font-body">
               Showcase your work and projects in one beautiful link-in-bio page.
             </p>
           </div>
 
-          <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-1">
-            <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-4">
+          <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-1 border border-border/30 group">
+            <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
               <Bot className="w-7 h-7 text-primary" />
             </div>
-            <h3 className="text-2xl font-bold mb-3">Crevia AI (Kira)</h3>
-            <p className="text-foreground/70 leading-relaxed">
+            <h3 className="text-2xl font-bold mb-3 font-heading">Crevia AI (Kira)</h3>
+            <p className="text-foreground/60 leading-relaxed font-body">
               AI-powered assistant to help you grow and optimize your creative business.
             </p>
           </div>
         </div>
 
         <div className="text-center">
-          <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-lg">
+          <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-lg font-bold shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)]">
             Learn More About Crevia
           </Button>
         </div>

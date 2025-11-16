@@ -17,6 +17,9 @@ export default {
         heading: ['Vollkorn', 'serif'],
         body: ['Poppins', 'sans-serif'],
       },
+      fontWeight: {
+        bold: '700',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
