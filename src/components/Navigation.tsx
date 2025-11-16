@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,6 +16,7 @@ const Navigation = () => {
 
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -25,7 +28,8 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
         <div className="text-2xl font-bold font-heading text-foreground tracking-tight">Amin Hassan</div>
         
-        <div className="flex gap-1">
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex gap-1">
           <Button
             variant="ghost"
             onClick={() => scrollToSection("about")}
@@ -55,7 +59,53 @@ const Navigation = () => {
             Contact
           </Button>
         </div>
+
+        {/* Mobile Menu Button */}
+        <Button
+          variant="ghost"
+          size="icon"
+          className="md:hidden hover:bg-primary/10 hover:text-primary"
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+        >
+          {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+        </Button>
       </div>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden bg-background/95 backdrop-blur-md border-t border-border/50 animate-fade-in">
+          <div className="px-4 py-4 space-y-2">
+            <Button
+              variant="ghost"
+              onClick={() => scrollToSection("about")}
+              className="w-full justify-start hover:text-primary hover:bg-primary/10 transition-all duration-300 font-bold"
+            >
+              About Me
+            </Button>
+            <Button
+              variant="ghost"
+              onClick={() => scrollToSection("crevia")}
+              className="w-full justify-start hover:text-primary hover:bg-primary/10 transition-all duration-300 font-bold"
+            >
+              Crevia
+            </Button>
+            <Button
+              variant="ghost"
+              onClick={() => scrollToSection("ahzar")}
+              className="w-full justify-start hover:text-primary hover:bg-primary/10 transition-all duration-300 font-bold"
+            >
+              Ahzar Circle
+            </Button>
+            <Button
+              variant="ghost"
+              onClick={() => scrollToSection("contact")}
+              className="w-full justify-start hover:text-primary hover:bg-primary/10 transition-all duration-300 font-bold"
+            >
+              Contact
+            </Button>
+          </div>
+        </div>
+      )}
     </nav>
   );
 };
