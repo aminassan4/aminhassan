@@ -66,13 +66,13 @@ const Testimonials = () => {
   );
 
   return (
-    <section className="py-20 px-4 bg-accent/5">
+    <section className="py-20 px-4 bg-secondary/30">
       <div className="max-w-7xl mx-auto animate-fade-up">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary font-heading">
             What People Say
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-xl text-muted-foreground font-body">
             Hear from members of our community
           </p>
         </div>
@@ -85,7 +85,7 @@ const Testimonials = () => {
               disabled={currentIndex === 0}
               variant="outline"
               size="icon"
-              className="h-12 w-12 rounded-full border-2 border-primary hover:bg-primary hover:text-primary-foreground disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-300"
+              className="h-12 w-12 rounded-full border-2 border-primary/50 hover:bg-primary hover:text-primary-foreground hover:border-primary disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-300"
             >
               <ChevronLeft className="h-6 w-6" />
             </Button>
@@ -110,7 +110,7 @@ const Testimonials = () => {
               disabled={currentIndex === maxIndex}
               variant="outline"
               size="icon"
-              className="h-12 w-12 rounded-full border-2 border-primary hover:bg-primary hover:text-primary-foreground disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-300"
+              className="h-12 w-12 rounded-full border-2 border-primary/50 hover:bg-primary hover:text-primary-foreground hover:border-primary disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-300"
             >
               <ChevronRight className="h-6 w-6" />
             </Button>
@@ -121,22 +121,22 @@ const Testimonials = () => {
             {visibleTestimonials.map((testimonial, index) => (
               <div
                 key={currentIndex + index}
-                className="bg-card rounded-2xl p-8 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-1 border border-primary/10 animate-fade-in"
+                className="bg-card rounded-2xl p-8 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-1 border border-border/30 animate-fade-in group"
               >
                 <div className="mb-6">
-                  <Quote className="h-10 w-10 text-primary/30" />
+                  <Quote className="h-10 w-10 text-primary/30 group-hover:text-primary/50 transition-colors duration-300" />
                 </div>
                 
-                <p className="text-foreground/80 leading-relaxed mb-6 text-base">
+                <p className="text-foreground/70 leading-relaxed mb-6 text-base font-body">
                   "{testimonial.testimonial}"
                 </p>
                 
-                <div className="flex items-center gap-4 pt-6 border-t border-border">
+                <div className="flex items-center gap-4 pt-6 border-t border-border/30">
                   <div className="text-4xl">{testimonial.image}</div>
                   <div>
-                    <h4 className="font-bold text-foreground">{testimonial.name}</h4>
-                    <p className="text-sm text-primary font-medium">{testimonial.role}</p>
-                    <p className="text-sm text-muted-foreground">{testimonial.company}</p>
+                    <h4 className="font-bold text-foreground font-heading">{testimonial.name}</h4>
+                    <p className="text-sm text-primary font-bold font-body">{testimonial.role}</p>
+                    <p className="text-sm text-muted-foreground font-body">{testimonial.company}</p>
                   </div>
                 </div>
               </div>

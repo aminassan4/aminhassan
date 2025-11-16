@@ -32,26 +32,31 @@ const events = [
 
 const Events = () => {
   return (
-    <section className="py-20 px-4 bg-primary/5">
-      <div className="max-w-6xl mx-auto animate-fade-up">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-primary">
+    <section className="py-20 px-4 relative overflow-hidden">
+      {/* Subtle background gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent pointer-events-none"></div>
+      
+      <div className="max-w-6xl mx-auto animate-fade-up relative z-10">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-primary font-heading">
           Events I've Done
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           {events.map((event, index) => (
             <div
               key={index}
-              className="bg-card rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-1"
+              className="bg-card rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:-translate-y-1 border border-border/30 group"
             >
-              <img
-                src={event.image}
-                alt={event.title}
-                className="w-full h-64 object-cover"
-              />
+              <div className="overflow-hidden">
+                <img
+                  src={event.image}
+                  alt={event.title}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
               <div className="p-6">
-                <div className="text-sm text-primary font-semibold mb-2">{event.date}</div>
-                <h3 className="text-2xl font-bold mb-3">{event.title}</h3>
-                <p className="text-foreground/70 leading-relaxed">{event.description}</p>
+                <div className="text-sm text-primary font-bold mb-2 font-body">{event.date}</div>
+                <h3 className="text-2xl font-bold mb-3 font-heading">{event.title}</h3>
+                <p className="text-foreground/60 leading-relaxed font-body">{event.description}</p>
               </div>
             </div>
           ))}
