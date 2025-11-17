@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
+import ScrollingGallery from "@/components/ScrollingGallery";
 import About from "@/components/About";
 import Crevia from "@/components/Crevia";
 import AhzarCircle from "@/components/AhzarCircle";
@@ -14,6 +15,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Navigation />
       <Hero />
+      <ScrollingGallery />
       <About />
       <Crevia />
       <AhzarCircle />
