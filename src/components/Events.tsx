@@ -1,32 +1,19 @@
-import eventImage1 from "@/assets/event-1.jpg";
-import eventImage2 from "@/assets/event-2.jpg";
-import eventImage3 from "@/assets/event-3.jpg";
-import eventImage4 from "@/assets/event-4.jpg";
+import freelancersSummit from "@/assets/freelancers-summit-2024.jpg";
+import aiSummit from "@/assets/ai-summit-2025.jpg";
+import { Button } from "@/components/ui/button";
 
 const events = [
   {
     title: "Freelancers Summit 2024",
     date: "March 2024",
     description: "Brought together 200+ freelancers to discuss the future of work in Africa.",
-    image: eventImage1,
+    image: freelancersSummit,
   },
   {
-    title: "DevFest Nairobi Interview",
-    date: "November 2023",
-    description: "Featured speaker discussing tech communities and developer ecosystems.",
-    image: eventImage2,
-  },
-  {
-    title: "Tech Community Panel",
-    date: "September 2023",
-    description: "Moderated panel on building sustainable tech communities in emerging markets.",
-    image: eventImage3,
-  },
-  {
-    title: "Creator Economy Workshop",
-    date: "June 2023",
-    description: "Workshop on monetization strategies for African creators and entrepreneurs.",
-    image: eventImage4,
+    title: "AI Summit 2025",
+    date: "January 2025",
+    description: "Leading discussions on artificial intelligence and its impact on African innovation.",
+    image: aiSummit,
   },
 ];
 
@@ -56,7 +43,10 @@ const Events = () => {
               <div className="p-6">
                 <div className="text-sm text-primary font-bold mb-2 font-body">{event.date}</div>
                 <h3 className="text-2xl font-bold mb-3 font-heading">{event.title}</h3>
-                <p className="text-foreground/60 leading-relaxed font-body">{event.description}</p>
+                <p className="text-foreground/60 leading-relaxed font-body mb-4">{event.description}</p>
+                <Button variant="outline" className="w-full">
+                  View Highlights
+                </Button>
               </div>
             </div>
           ))}
