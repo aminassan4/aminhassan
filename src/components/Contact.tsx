@@ -1,4 +1,5 @@
-import { Mail, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Mail, Linkedin, Instagram } from "lucide-react";
+import { SiTiktok } from "react-icons/si";
 
 const Contact = () => {
 
@@ -37,22 +38,28 @@ const Contact = () => {
             <p className="text-sm text-muted-foreground mb-4 font-body">Connect with me</p>
             <div className="flex gap-4 justify-center">
               <a
-                href="#"
+                href="https://www.instagram.com/aminhussei.n"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               >
-                <Twitter className="w-5 h-5" />
+                <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/hassan-amin-hussein-"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@aminhassa.n"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               >
-                <Instagram className="w-5 h-5" />
+                <SiTiktok className="w-5 h-5" />
               </a>
             </div>
           </div>

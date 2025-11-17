@@ -1,4 +1,5 @@
-import { Twitter, Linkedin, Instagram, Github } from "lucide-react";
+import { Linkedin, Instagram } from "lucide-react";
+import { SiTiktok } from "react-icons/si";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -34,28 +35,28 @@ const Footer = () => {
             <h4 className="font-bold mb-4 font-heading">Connect</h4>
             <div className="flex gap-4">
               <a
-                href="#"
-                className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/aminhussei.n"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/hassan-amin-hussein-"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
               >
-                <Github className="w-5 h-5" />
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://www.tiktok.com/@aminhassa.n"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+              >
+                <SiTiktok className="w-5 h-5" />
               </a>
             </div>
           </div>
