@@ -5,6 +5,7 @@ import gallery4 from "@/assets/gallery-4.jpg";
 
 const ScrollingGallery = () => {
   const images = [gallery1, gallery2, gallery3, gallery4];
+  const rotations = ['rotate-3', 'rotate-[-2deg]', 'rotate-2', 'rotate-[-3deg]'];
 
   return (
     <section className="py-16 px-4 overflow-hidden bg-background">
@@ -14,7 +15,7 @@ const ScrollingGallery = () => {
           {images.map((img, index) => (
             <div
               key={`first-${index}`}
-              className="flex-shrink-0 w-[280px] h-[280px] md:w-[320px] md:h-[320px] transform rotate-[-3deg] hover:rotate-0 transition-transform duration-300"
+              className={`flex-shrink-0 w-[280px] h-[280px] md:w-[320px] md:h-[320px] transform ${rotations[index]} hover:rotate-0 transition-transform duration-300`}
             >
               <img
                 src={img}
@@ -27,7 +28,7 @@ const ScrollingGallery = () => {
           {images.map((img, index) => (
             <div
               key={`second-${index}`}
-              className="flex-shrink-0 w-[280px] h-[280px] md:w-[320px] md:h-[320px] transform rotate-[-3deg] hover:rotate-0 transition-transform duration-300"
+              className={`flex-shrink-0 w-[280px] h-[280px] md:w-[320px] md:h-[320px] transform ${rotations[index]} hover:rotate-0 transition-transform duration-300`}
             >
               <img
                 src={img}
