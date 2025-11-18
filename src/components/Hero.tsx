@@ -21,9 +21,6 @@ const Hero = () => {
             Hey, I'm <br />
             <span className="text-primary">Amin Hussein</span>
           </h1>
-          <p className="text-xl md:text-2xl text-white font-bold font-body">
-            Entrepreneur • Community Builder • Marketer
-          </p>
           <p className="text-lg text-white leading-relaxed max-w-lg font-body">
             I'm the founder of Crevia and Ahzar Circle.
           </p>
