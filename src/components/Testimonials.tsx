@@ -72,7 +72,7 @@ const Testimonials = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary font-heading">
             What People Say
           </h2>
-          <p className="text-xl text-muted-foreground font-body">
+          <p className="text-xl text-white font-body">
             Hear from members of our community
           </p>
         </div>
@@ -127,7 +127,7 @@ const Testimonials = () => {
                   <Quote className="h-10 w-10 text-primary/30 group-hover:text-primary/50 transition-colors duration-300" />
                 </div>
                 
-                <p className="text-foreground/70 leading-relaxed mb-6 text-base font-body">
+                <p className="text-white leading-relaxed mb-6 text-base font-body">
                   "{testimonial.testimonial}"
                 </p>
                 
@@ -136,7 +136,7 @@ const Testimonials = () => {
                   <div>
                     <h4 className="font-bold text-foreground font-heading">{testimonial.name}</h4>
                     <p className="text-sm text-primary font-bold font-body">{testimonial.role}</p>
-                    <p className="text-sm text-muted-foreground font-body">{testimonial.company}</p>
+                    <p className="text-sm text-white font-body">{testimonial.company}</p>
                   </div>
                 </div>
               </div>

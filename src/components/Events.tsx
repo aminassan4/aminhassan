@@ -5,15 +5,17 @@ import { Button } from "@/components/ui/button";
 const events = [
   {
     title: "Freelancers Summit 2024",
-    date: "March 2024",
-    description: "Brought together 200+ freelancers to discuss the future of work in Africa.",
+    date: "October 2024",
+    description: "Empowering digital independence",
     image: freelancersSummit,
+    link: "https://youtu.be/-20xdAqoBfo?si=MuWtsfa7WjGdKwsP",
   },
   {
     title: "AI Summit 2025",
-    date: "January 2025",
-    description: "Leading discussions on artificial intelligence and its impact on African innovation.",
+    date: "August 2025",
+    description: "Building AI for impact",
     image: aiSummit,
+    link: "https://youtube.com/shorts/BKaxVxiLz0Y?si=gOGQE2PKxnEnRBNB",
   },
 ];
 
@@ -43,9 +45,11 @@ const Events = () => {
               <div className="p-6">
                 <div className="text-sm text-primary font-bold mb-2 font-body">{event.date}</div>
                 <h3 className="text-2xl font-bold mb-3 font-heading">{event.title}</h3>
-                <p className="text-foreground/60 leading-relaxed font-body mb-4">{event.description}</p>
-                <Button variant="outline" className="w-full">
-                  View Highlights
+                <p className="text-white leading-relaxed font-body mb-4">{event.description}</p>
+                <Button variant="outline" className="w-full" asChild>
+                  <a href={event.link} target="_blank" rel="noopener noreferrer">
+                    View Highlights
+                  </a>
                 </Button>
               </div>
             </div>
