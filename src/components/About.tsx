@@ -9,7 +9,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary font-heading">About Me</h2>
           <div className="space-y-4 text-lg text-white leading-relaxed font-body">
             <p>
-              I'm <strong className="text-foreground font-bold">Amin Hassan</strong>, 
+              I'm <strong className="text-foreground font-bold">Amin Hussein</strong>, 
               a passionate entrepreneur and community builder dedicated to empowering the next 
               generation of African creators and innovators.
             </p>
