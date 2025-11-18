@@ -21,10 +21,10 @@ const Hero = () => {
             Hey, I'm <br />
             <span className="text-primary">Amin Hassan</span>
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground font-bold font-body">
+          <p className="text-xl md:text-2xl text-white font-bold font-body">
             Entrepreneur • Community Builder • Marketer
           </p>
-          <p className="text-lg text-foreground/70 leading-relaxed max-w-lg font-body">
+          <p className="text-lg text-white leading-relaxed max-w-lg font-body">
             I'm the creator of Crevia and founder of Ahzar Circle. 
             I build communities and empower creators across Africa through technology, marketing, 
             and meaningful connections.

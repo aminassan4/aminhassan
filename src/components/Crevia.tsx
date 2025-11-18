@@ -7,7 +7,7 @@ const Crevia = () => {
       <div className="max-w-6xl mx-auto animate-fade-up">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary font-heading">About Crevia</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-body">
+          <p className="text-xl text-white max-w-2xl mx-auto font-body">
             Empowering creators to build, launch, and monetize their creative career
           </p>
         </div>
@@ -18,7 +18,7 @@ const Crevia = () => {
               <Link2 className="w-7 h-7 text-primary" />
             </div>
             <h3 className="text-2xl font-bold mb-3 font-heading">Crevia Connect</h3>
-            <p className="text-foreground/60 leading-relaxed font-body">
+            <p className="text-white leading-relaxed font-body">
               Build your network and collaborate with other creators in your space.
             </p>
           </div>
@@ -28,7 +28,7 @@ const Crevia = () => {
               <Sparkles className="w-7 h-7 text-primary" />
             </div>
             <h3 className="text-2xl font-bold mb-3 font-heading">Crevia Link</h3>
-            <p className="text-foreground/60 leading-relaxed font-body">
+            <p className="text-white leading-relaxed font-body">
               Showcase your work and projects in one beautiful link-in-bio page.
             </p>
           </div>
@@ -38,7 +38,7 @@ const Crevia = () => {
               <Bot className="w-7 h-7 text-primary" />
             </div>
             <h3 className="text-2xl font-bold mb-3 font-heading">Crevia AI (Kira)</h3>
-            <p className="text-foreground/60 leading-relaxed font-body">
+            <p className="text-white leading-relaxed font-body">
               AI-powered assistant to help you grow and optimize your creative business.
             </p>
           </div>

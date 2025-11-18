@@ -16,7 +16,7 @@ const Brands = () => {
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 font-heading">
           Brands I've Worked With
         </h2>
-        <p className="text-xl text-muted-foreground text-center mb-12 max-w-2xl mx-auto font-body">
+        <p className="text-xl text-white text-center mb-12 max-w-2xl mx-auto font-body">
           Proud to have collaborated with these amazing organizations
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">

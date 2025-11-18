@@ -7,7 +7,7 @@ const About = () => {
       <div className="max-w-4xl mx-auto animate-fade-up relative z-10">
         <div className="bg-card rounded-3xl p-8 md:p-12 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-shadow duration-300 border border-border/50">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary font-heading">About Me</h2>
-          <div className="space-y-4 text-lg text-foreground/70 leading-relaxed font-body">
+          <div className="space-y-4 text-lg text-white leading-relaxed font-body">
             <p>
               I'm <strong className="text-foreground font-bold">Amin Hassan</strong>, 
               a passionate entrepreneur and community builder dedicated to empowering the next 

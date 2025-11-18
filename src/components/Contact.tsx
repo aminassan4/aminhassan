@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="max-w-4xl mx-auto animate-fade-up relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary font-heading">Get In Touch</h2>
-          <p className="text-xl text-muted-foreground font-body">
+          <p className="text-xl text-white font-body">
             Have a project or idea? Let's talk about it.
           </p>
         </div>
@@ -23,7 +23,7 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <p className="text-sm text-muted-foreground font-body">Email</p>
+                <p className="text-sm text-white font-body">Email</p>
                 <a
                   href="mailto:amin@crevia.app"
                   className="text-lg font-bold hover:text-primary transition-colors font-body"
@@ -35,7 +35,7 @@ const Contact = () => {
           </div>
 
           <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-elegant)] border border-border/30 hover:shadow-[var(--shadow-hover)] transition-shadow duration-300">
-            <p className="text-sm text-muted-foreground mb-4 font-body">Connect with me</p>
+            <p className="text-sm text-white mb-4 font-body">Connect with me</p>
             <div className="flex gap-4 justify-center">
               <a
                 href="https://www.instagram.com/aminhussei.n"
