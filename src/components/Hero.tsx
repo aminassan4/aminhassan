@@ -25,9 +25,7 @@ const Hero = () => {
             Entrepreneur • Community Builder • Marketer
           </p>
           <p className="text-lg text-white leading-relaxed max-w-lg font-body">
-            I'm the creator of Crevia and founder of Ahzar Circle. 
-            I build communities and empower creators across Africa through technology, marketing, 
-            and meaningful connections.
+            I'm the founder of Crevia and Ahzar Circle.
           </p>
           <Button 
             size="lg" 
