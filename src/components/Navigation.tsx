@@ -26,7 +26,7 @@ const Navigation = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
-        <div className="text-2xl font-bold font-heading text-foreground tracking-tight">Amin Hassan</div>
+        <div className="text-2xl font-bold font-heading text-foreground tracking-tight">Amin Hussein</div>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex gap-1">

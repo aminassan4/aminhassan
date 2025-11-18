@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 font-heading">Amin Hassan</h3>
+            <h3 className="text-2xl font-bold mb-4 font-heading">Amin Hussein</h3>
             <p className="text-white leading-relaxed font-body">
               Building communities and empowering creators across Africa.
             </p>
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border/30 pt-8 text-center text-white font-body">
-          <p>&copy; {currentYear} Amin Hassan. All rights reserved.</p>
+          <p>&copy; {currentYear} Amin Hussein. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight font-heading">
             Hey, I'm <br />
-            <span className="text-primary">Amin Hassan</span>
+            <span className="text-primary">Amin Hussein</span>
           </h1>
           <p className="text-xl md:text-2xl text-white font-bold font-body">
             Entrepreneur • Community Builder • Marketer
@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
           <img 
             src={heroImage} 
-            alt="Amin Hassan - Entrepreneur and Community Builder" 
+            alt="Amin Hussein - Entrepreneur and Community Builder" 
             className="relative rounded-3xl shadow-2xl w-full max-w-md mx-auto object-cover aspect-square border border-primary/20"
           />
         </div>
