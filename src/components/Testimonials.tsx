@@ -31,20 +31,6 @@ const testimonials = [
     testimonial: "The events and workshops organized by Amin are always top-notch. I've learned so much and made invaluable connections that have advanced my career.",
     image: "👨🏾‍💼",
   },
-  {
-    name: "Faith Akinyi",
-    role: "Freelance Designer",
-    company: "Creative Studio",
-    testimonial: "Crevia's tools have streamlined my workflow and helped me present my work professionally. The community support has been incredible for my growth.",
-    image: "👩🏾‍🎨",
-  },
-  {
-    name: "James Mwangi",
-    role: "Business Consultant",
-    company: "Consulting Firm",
-    testimonial: "Amin's vision for empowering African creators is inspiring. Being part of Ahzar Circle has opened doors I never thought possible.",
-    image: "👨🏾‍💼",
-  },
 ];
 
 const Testimonials = () => {
