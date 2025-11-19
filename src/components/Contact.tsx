@@ -25,10 +25,10 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-white font-body">Email</p>
                 <a
-                  href="mailto:amin@crevia.app"
+                  href="mailto:hh.aminhassan@gmail.com"
                   className="text-lg font-bold hover:text-primary transition-colors font-body"
                 >
-                  amin@crevia.app
+                  hh.aminhassan@gmail.com
                 </a>
               </div>
             </div>
