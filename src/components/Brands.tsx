@@ -11,6 +11,7 @@ import jisortLogo from "@/assets/logos/jisort.png";
 
 const brands = [
   { name: "iHub", logo: ihubLogo },
+  { name: "Jisort Ublow", logo: jisortLogo },
   { name: "TechMixer", logo: techmixerLogo },
   { name: "SCESA", logo: scesaLogo },
   { name: "Kenyan Design Konversations", logo: kdkLogo },
@@ -19,7 +20,6 @@ const brands = [
   { name: "The Tech Hut", logo: techHutLogo },
   { name: "Angular Kenya", logo: angularLogo },
   { name: "Nairobi DevOps Community", logo: devopsLogo },
-  { name: "Jisort Ublow", logo: jisortLogo },
 ];
 
 const Brands = () => {
