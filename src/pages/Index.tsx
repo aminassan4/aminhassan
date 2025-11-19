@@ -15,6 +15,13 @@ const Index = () => {
     <div className="min-h-screen">
       <Navigation />
       <Hero />
+      <section className="py-16 px-4 bg-background">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-5xl md:text-6xl font-bold text-white font-heading">
+            Own Your Journey
+          </h2>
+        </div>
+      </section>
       <ScrollingGallery />
       <About />
       <Crevia />
