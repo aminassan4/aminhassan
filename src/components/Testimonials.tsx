@@ -35,8 +35,29 @@ const testimonials = [
 
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const testimonialsPerPage = 3;
+  
+  // Responsive testimonials per page
+  const getTestimonialsPerPage = () => {
+    if (typeof window !== 'undefined') {
+      return window.innerWidth >= 768 ? 3 : 1;
+    }
+    return 3;
+  };
+  
+  const [testimonialsPerPage, setTestimonialsPerPage] = useState(getTestimonialsPerPage());
   const maxIndex = Math.max(0, testimonials.length - testimonialsPerPage);
+  
+  // Update on resize
+  useState(() => {
+    const handleResize = () => {
+      const newPerPage = getTestimonialsPerPage();
+      setTestimonialsPerPage(newPerPage);
+      setCurrentIndex(prev => Math.min(prev, Math.max(0, testimonials.length - newPerPage)));
+    };
+    
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  });
 
   const handlePrevious = () => {
     setCurrentIndex((prev) => Math.max(0, prev - 1));
@@ -103,7 +124,7 @@ const Testimonials = () => {
           </div>
 
           {/* Testimonials Grid */}
-          <div className="grid md:grid-cols-3 gap-6 min-h-[400px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 min-h-[300px] md:min-h-[400px]">
             {visibleTestimonials.map((testimonial, index) => (
               <div
                 key={currentIndex + index}
