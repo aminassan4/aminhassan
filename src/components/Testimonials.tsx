@@ -1,35 +1,23 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import peterKariuki from "@/assets/peter-kariuki.png";
+import chrisOketch from "@/assets/chris-oketch.png";
 
 const testimonials = [
   {
-    name: "Sarah Kimani",
-    role: "Content Creator",
-    company: "Digital Marketing Agency",
-    testimonial: "Working with Amin has been transformative for my creative career. His insights and guidance through Crevia have helped me monetize my content effectively.",
-    image: "👩🏾‍💼",
+    name: "Peter Kariuki",
+    role: "Software Engineer",
+    company: "",
+    testimonial: "Amin is a true tech visionary and a dedicated community builder. His ability to inspire teams, spark innovation, and create meaningful impact makes him one of the most influential leaders in our ecosystem.",
+    image: peterKariuki,
   },
   {
-    name: "David Ochieng",
-    role: "Tech Entrepreneur",
-    company: "Startup Founder",
-    testimonial: "Ahzar Circle provided the network and mentorship I needed to take my startup to the next level. The community is genuinely supportive and full of talented individuals.",
-    image: "👨🏾‍💻",
-  },
-  {
-    name: "Grace Wanjiku",
-    role: "Digital Marketer",
-    company: "E-commerce Brand",
-    testimonial: "Amin's approach to community building and marketing is exceptional. He's helped me understand the creator economy and build sustainable income streams.",
-    image: "👩🏾‍🎨",
-  },
-  {
-    name: "Michael Otieno",
-    role: "Software Developer",
-    company: "Tech Company",
-    testimonial: "The events and workshops organized by Amin are always top-notch. I've learned so much and made invaluable connections that have advanced my career.",
-    image: "👨🏾‍💼",
+    name: "Chris Oketch",
+    role: "Founder Minisend",
+    company: "",
+    testimonial: "Amin is one of the rare founders whose grit genuinely sets him apart. He refuses to give up on his vision, no matter the challenge. His commitment to creating real impact is evident in the transformative events he leads — from the AI Summit to the Freelancers Summit — each one pushing the community forward in meaningful ways.",
+    image: chrisOketch,
   },
 ];
 
@@ -139,11 +127,15 @@ const Testimonials = () => {
                 </p>
                 
                 <div className="flex items-center gap-4 pt-6 border-t border-border/30">
-                  <div className="text-4xl">{testimonial.image}</div>
+                  <img 
+                    src={testimonial.image} 
+                    alt={testimonial.name}
+                    className="w-16 h-16 rounded-full object-cover"
+                  />
                   <div>
                     <h4 className="font-bold text-foreground font-heading">{testimonial.name}</h4>
                     <p className="text-sm text-primary font-bold font-body">{testimonial.role}</p>
-                    <p className="text-sm text-white font-body">{testimonial.company}</p>
+                    {testimonial.company && <p className="text-sm text-white font-body">{testimonial.company}</p>}
                   </div>
                 </div>
               </div>
