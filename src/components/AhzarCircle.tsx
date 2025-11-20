@@ -11,7 +11,7 @@ const AhzarCircle = () => {
             <strong className="text-primary font-bold">Ahzar Circle</strong> is a community that brings together ambitious muslim entrepreneurs, creators, and thought leaders who are committed to personal growth and making a meaningful impact.
           </p>
           <a 
-            href="https://ahzarcircle.com" 
+            href="https://lnk.bio/AhzarCircle" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-xl font-bold hover:bg-primary/90 transition-colors duration-300"

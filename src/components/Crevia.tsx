@@ -45,9 +45,15 @@ const Crevia = () => {
         </div>
 
         <div className="text-center">
-          <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-lg font-bold shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)]">
-            Learn More About Crevia
-          </Button>
+          <a 
+            href="https://lnk.bio/Crevia" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Button size="lg" variant="outline" className="rounded-full px-8 py-6 text-lg font-bold shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)]">
+              Learn More About Crevia
+            </Button>
+          </a>
         </div>
       </div>
     </section>
