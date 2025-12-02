@@ -47,13 +47,6 @@ const Navigation = () => {
           </Button>
           <Button
             variant="ghost"
-            onClick={() => scrollToSection("ahzar")}
-            className="hover:text-primary hover:bg-primary/10 transition-all duration-300 font-bold"
-          >
-            Ahzar Circle
-          </Button>
-          <Button
-            variant="ghost"
             onClick={() => scrollToSection("contact")}
             className="hover:text-primary hover:bg-primary/10 transition-all duration-300 font-bold"
           >
@@ -93,13 +86,6 @@ const Navigation = () => {
               className="w-full justify-start hover:text-primary hover:bg-primary/10 transition-all duration-300 font-bold"
             >
               Crevia
-            </Button>
-            <Button
-              variant="ghost"
-              onClick={() => scrollToSection("ahzar")}
-              className="w-full justify-start hover:text-primary hover:bg-primary/10 transition-all duration-300 font-bold"
-            >
-              Ahzar Circle
             </Button>
             <Button
               variant="ghost"

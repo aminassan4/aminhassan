@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import ScrollingGallery from "@/components/ScrollingGallery";
 import About from "@/components/About";
 import Crevia from "@/components/Crevia";
-import AhzarCircle from "@/components/AhzarCircle";
 import Events from "@/components/Events";
 import Brands from "@/components/Brands";
 import Testimonials from "@/components/Testimonials";
@@ -25,7 +24,6 @@ const Index = () => {
       <ScrollingGallery />
       <About />
       <Crevia />
-      <AhzarCircle />
       <Events />
       <Brands />
       <Testimonials />

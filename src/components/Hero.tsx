@@ -22,7 +22,7 @@ const Hero = () => {
             <span className="text-primary">Amin Hussein</span>
           </h1>
           <p className="text-lg text-white leading-relaxed max-w-lg font-body">
-            I'm the founder of Crevia and Ahzar Circle.
+            I'm the founder of Crevia.
           </p>
           <Button 
             size="lg" 
