@@ -1,8 +1,16 @@
 import { Quote } from "lucide-react";
+import lydiaMasabarakiza from "@/assets/lydia-masabarakiza.png";
 import peterKariuki from "@/assets/peter-kariuki.png";
 import chrisOketch from "@/assets/chris-oketch.png";
 
 const testimonials = [
+  {
+    name: "Lydia Masabarakiza",
+    role: "Data Analyst",
+    company: "",
+    testimonial: "I had the pleasure of working with Amin Hassan through his role as the founder of Crevia, where his leadership truly stood out. He guided the team with clarity, dedication, and purpose, leading Crevia to successfully host its first Freelancers Summit with about 50 attendees and an AI Summit with over 100 attendees. Even when challenges arose, Amin remained focused and composed, taking initiative and leading by example. His professionalism, passion, and commitment made a tremendous difference. I'm grateful to have worked with such an exceptional leader.",
+    image: lydiaMasabarakiza,
+  },
   {
     name: "Peter Kariuki",
     role: "Software Engineer",
@@ -34,7 +42,7 @@ const Testimonials = () => {
         </div>
 
         {/* Testimonials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
