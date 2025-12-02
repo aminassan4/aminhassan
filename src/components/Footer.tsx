@@ -23,11 +23,6 @@ const Footer = () => {
                   Crevia
                 </a>
               </li>
-              <li>
-                <a href="#ahzar" className="text-white hover:text-primary transition-colors">
-                  Ahzar Circle
-                </a>
-              </li>
             </ul>
           </div>
 
