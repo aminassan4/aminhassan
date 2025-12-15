@@ -6,14 +6,14 @@ const events = [
   {
     title: "Freelancers Summit 2024",
     date: "October 2024",
-    description: "Where freedom met opportunity. 500+ creators. One mission: Own your independence.",
+    description: "Where freedom met opportunity. 50+ creatives. One mission: Own your independence.",
     image: freelancersSummit,
     link: "https://youtu.be/-20xdAqoBfo?si=MuWtsfa7WjGdKwsP",
   },
   {
     title: "AI Summit 2025",
     date: "August 2025",
-    description: "The future isn't coming. It's here. We're building it—together.",
+    description: "The future isn't coming. It's here. 100+ innovators building it—together.",
     image: aiSummit,
     link: "https://youtube.com/shorts/BKaxVxiLz0Y?si=gOGQE2PKxnEnRBNB",
   },
