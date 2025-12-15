@@ -6,15 +6,20 @@ const About = () => {
       
       <div className="max-w-4xl mx-auto animate-fade-up relative z-10">
         <div className="bg-card rounded-3xl p-8 md:p-12 shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-hover)] transition-shadow duration-300 border border-border/50">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary font-heading">About Me</h2>
-          <div className="text-lg text-white leading-relaxed font-body">
+          <p className="text-primary font-bold text-sm tracking-widest uppercase mb-4 font-body">The Mission</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-8 font-heading leading-tight">
+            Every creator has a story.<br />
+            <span className="text-primary">Most never tell it.</span>
+          </h2>
+          <div className="text-xl text-white leading-relaxed font-body space-y-6">
             <p>
-              I'm <strong className="text-foreground font-bold">Amin Hussein</strong>, 
-              a passionate entrepreneur and community builder. Through{" "}
-              <strong className="text-primary font-bold">Crevia</strong> and{" "}
-              <strong className="text-primary font-bold">Ahzar Circle</strong>, I help creators 
-              build and monetize their careers while fostering meaningful connections across Africa 
-              and beyond.
+              I refuse to let that happen.
+            </p>
+            <p>
+              Through <strong className="text-primary font-bold">Crevia</strong>, I'm building the infrastructure for creators to rise—to connect with brands, showcase their genius, and turn passion into profit.
+            </p>
+            <p className="text-2xl font-bold text-foreground font-heading">
+              Because your story deserves to be heard. Loud.
             </p>
           </div>
         </div>

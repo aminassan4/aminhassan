@@ -10,9 +10,13 @@ const Contact = () => {
       
       <div className="max-w-4xl mx-auto animate-fade-up relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary font-heading">Get In Touch</h2>
+          <p className="text-primary font-bold text-sm tracking-widest uppercase mb-4 font-body">Start The Conversation</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
+            Ready to own<br />
+            <span className="text-primary">your story?</span>
+          </h2>
           <p className="text-xl text-white font-body">
-            Have a project or idea? Let's talk about it.
+            Let's build something legendary together.
           </p>
         </div>
 

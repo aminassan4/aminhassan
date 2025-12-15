@@ -6,14 +6,14 @@ const events = [
   {
     title: "Freelancers Summit 2024",
     date: "October 2024",
-    description: "Empowering digital independence",
+    description: "Where freedom met opportunity. 500+ creators. One mission: Own your independence.",
     image: freelancersSummit,
     link: "https://youtu.be/-20xdAqoBfo?si=MuWtsfa7WjGdKwsP",
   },
   {
     title: "AI Summit 2025",
     date: "August 2025",
-    description: "Building AI for impact",
+    description: "The future isn't coming. It's here. We're building it—together.",
     image: aiSummit,
     link: "https://youtube.com/shorts/BKaxVxiLz0Y?si=gOGQE2PKxnEnRBNB",
   },
@@ -26,9 +26,13 @@ const Events = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent pointer-events-none"></div>
       
       <div className="max-w-6xl mx-auto animate-fade-up relative z-10">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-primary font-heading">
-          Events I've Done
-        </h2>
+        <div className="text-center mb-12">
+          <p className="text-primary font-bold text-sm tracking-widest uppercase mb-4 font-body">Moments That Moved</p>
+          <h2 className="text-4xl md:text-5xl font-bold font-heading">
+            Stories aren't just told.<br />
+            <span className="text-primary">They're lived.</span>
+          </h2>
+        </div>
         <div className="grid md:grid-cols-2 gap-8">
           {events.map((event, index) => (
             <div
