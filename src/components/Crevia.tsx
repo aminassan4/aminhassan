@@ -19,7 +19,7 @@ const Crevia = () => {
             </div>
             <h3 className="text-2xl font-bold mb-3 font-heading">Crevia Connect</h3>
             <p className="text-white leading-relaxed font-body">
-              Build your network and collaborate with other creators in your space.
+              Your space to connect with brands and manage your campaigns.
             </p>
           </div>
 
