@@ -5,10 +5,14 @@ const Crevia = () => {
   return (
     <section id="crevia" className="py-20 px-4 bg-secondary/30">
       <div className="max-w-6xl mx-auto animate-fade-up">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary font-heading">About Crevia</h2>
+        <div className="text-center mb-16">
+          <p className="text-primary font-bold text-sm tracking-widest uppercase mb-4 font-body">The Platform</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
+            Built for creators.<br />
+            <span className="text-primary">Powered by ambition.</span>
+          </h2>
           <p className="text-xl text-white max-w-2xl mx-auto font-body">
-            Empowering creators to build, launch, and monetize their creative career
+            Crevia is where your story becomes your empire.
           </p>
         </div>
         
@@ -19,7 +23,7 @@ const Crevia = () => {
             </div>
             <h3 className="text-2xl font-bold mb-3 font-heading">Crevia Connect</h3>
             <p className="text-white leading-relaxed font-body">
-              Your space to connect with brands and manage your campaigns.
+              Connect. Collaborate. Conquer. Your gateway to brand partnerships that matter.
             </p>
           </div>
 
@@ -29,7 +33,7 @@ const Crevia = () => {
             </div>
             <h3 className="text-2xl font-bold mb-3 font-heading">Crevia Link</h3>
             <p className="text-white leading-relaxed font-body">
-              Showcase your work and projects in one beautiful link-in-bio page.
+              One link. Infinite possibilities. Your entire story, beautifully told.
             </p>
           </div>
 
@@ -39,7 +43,7 @@ const Crevia = () => {
             </div>
             <h3 className="text-2xl font-bold mb-3 font-heading">Crevia AI (Kira)</h3>
             <p className="text-white leading-relaxed font-body">
-              AI-powered assistant to help you grow and optimize your creative business.
+              Your AI co-pilot. Smarter strategies. Faster growth. Zero guesswork.
             </p>
           </div>
         </div>
